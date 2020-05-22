@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/img/weather.png">
+  <title>404</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <!-- The links use /public as the root, as stated in the express.static -->
+</head>
+
+<body>
+  <div class="main-content">
+    {{>header}}
+    <p>{{errMsg}}</p>
+  </div>
+
+  {{>footer}}
+</body>
+
+</html>
